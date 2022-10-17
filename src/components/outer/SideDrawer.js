@@ -1,6 +1,6 @@
 import React from "react";
 import { Drawer, List, ListItem } from "@mui/material";
-import { Anchor } from "@mui/icons-material";
+import { anchor } from "@mui/icons-material";
 
 const SideDrawer = (props) => {
   const links = [

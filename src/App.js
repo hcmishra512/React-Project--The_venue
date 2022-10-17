@@ -1,7 +1,9 @@
 import "./App.css";
-import Featured from "./components/outer/featured/intex";
+import Featured from "./featured/intex";
 import Footer from "./components/outer/Footer";
 import Header from "./components/outer/Header";
+import VenueNfo from "./components/venueNfo";
+import HighLights from "./components/highlights";
 
 function App() {
   return (
@@ -9,6 +11,12 @@ function App() {
       <Header />
       <>
         <Featured />
+      </>
+      <>
+        <VenueNfo />
+      </>
+      <>
+        <HighLights />
       </>
       <div style={{ backgroundColor: "red", height: "800px" }}></div>
       <div style={{ backgroundColor: "yellow", height: "800px" }}></div>
